@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
-puts "hello world"
+require 'colorize'
 
 def hello_world
-    puts "Hello World"
+    puts "Hello World".colorize(color: :black, background: :light_white)
 end
+
+hello_world
